@@ -21,9 +21,5 @@
 
 ## Screenshots
 
-![Login Screen](screenshots/login.png "Login Screen") 
-![Welcome Screen](screenshots/welcome.png "Welcome Screen") 
-![Instructions Screen](screenshots/instructions.png "Instructions Screen") 
-![Shoes Screen](screenshots/shoe_list.png "Shoes Screen") 
-![Edit Screen](screenshots/edit.png "Edit Screen")
+![Login Screen](screenshots/login.png "Login Screen")![Welcome Screen](screenshots/welcome.png "Welcome Screen")![Instructions Screen](screenshots/instructions.png "Instructions Screen")![Shoes Screen](screenshots/shoe_list.png "Shoes Screen")![Edit Screen](screenshots/edit.png "Edit Screen")
 
