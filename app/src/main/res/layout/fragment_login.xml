@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.android_kotlin_shoe_store.MainViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".login.LoginFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/txt_instructions_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/e_mail_text"
+                tools:text="Email"/>
+
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="@string/e_mail_edit_hint"
+                android:importantForAutofill="no"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/txt_instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/password_text"
+                android:textSize="16sp"
+                tools:text="Password" />
+
+            <EditText
+                android:id="@+id/edit_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/password_edit_hint"
+                android:importantForAutofill="no"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="@string/btn_login_text"
+                android:onClick="@{ () -> viewModel.showWelcomeScreen()}"/>
+
+            <Button
+                android:id="@+id/btn_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/btn_create_account_text"
+                android:onClick="@{ () -> viewModel.showWelcomeScreen()}"/>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

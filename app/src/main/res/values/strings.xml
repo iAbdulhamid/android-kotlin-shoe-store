@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Shoe Store</string>
+
+
+    <string name="instructions_text">
+        1. Click start to see a list of shoes.\n\n
+        2. In Shoes List page, you can add new shoes. \n
+        Just click the floating button at the bottom right corner of the screen.\n\n
+        3. You can use the menu to logout. Just click the three dots at the top right corner of the screen.
+        </string>
+
+    <string name="floating_button_content_description">Create a new shoe</string>
+    <string name="string_value">%s %s</string>
+    <string name="double_value">%s %.1f</string>
+    <string name="e_mail_text">E-mail</string>
+    <string name="e_mail_edit_hint">example@google.com</string>
+    <string name="password_text">Password</string>
+    <string name="password_edit_hint">type your password here</string>
+    <string name="btn_login_text">Login</string>
+    <string name="btn_create_account_text">Create Account</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="welcome_instructions">Press \'Next\' to see usage instructions ...</string>
+    <string name="btn_next_text">Next</string>
+    <string name="usage_instructions_text">Usage Instructions</string>
+    <string name="btn_start_text">Start</string>
+    <string name="name_label">Name:</string>
+    <string name="name_edit_hint">Example: Nike ZoomX SuperRep Surge</string>
+    <string name="company_label">Company:</string>
+    <string name="company_edit_hint">Example: Nike</string>
+    <string name="size_label">Size:</string>
+    <string name="size_edit_hint">Example: 38.0</string>
+    <string name="description_label">Description:</string>
+    <string name="description_edit_hint">Example: Very comfortable!</string>
+    <string name="btn_save_text">Save</string>
+    <string name="btn_cancel_text">Cancel</string>
+    <string name="logout_menu_text">Logout</string>
+</resources>
