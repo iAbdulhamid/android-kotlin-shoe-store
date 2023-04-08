@@ -8,7 +8,8 @@
             name="viewModel"
             type="com.example.android_kotlin_shoe_store.MainViewModel" />
     </data>
-
+    <!-- ConstraintLayout lets you create large, complex layouts with a flat view hierarchy—no nested view groups.
+     Used to Build responsive UI and improve the UI performance -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/welcome_layout"
         android:layout_width="match_parent"
